@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.Header_Container {
+    background: lightgrey;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.Profile_Photo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 3.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.Main_Content {
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.Subjects {
+    display: flex;
+    gap: 10rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Subject_Box {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 150px;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+.Subject_Image {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 10px;
+}
